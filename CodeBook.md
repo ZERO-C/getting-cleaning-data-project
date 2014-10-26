@@ -21,17 +21,17 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 freqBodyAccJerkMagnitude, freqBodyGyroMagnitude, freqBodyGyroJerkMagnitude.
 
 Variables
-Variables de identificación
+Identification variables
 "activityId"	  "subjectId"
-Variable categórica
+Categorical variables
 "activityType"
-Variables medidas en unidades de tiempo
+variables measured in units of time
 "timeBodyAccMagnitudeMean"     	"timeBodyAccMagnitudeStdDev"	
 "timeGravityAccMagnitudeMean"	  "timeGravityAccMagnitudeStdDev"	
 "timeBodyAccJerkMagnitudeMean"	"timeBodyAccJerkMagnitudeStdDev"	
 "timeBodyGyroMagnitudeMean"	    "timeBodyGyroMagnitudeStdDev"	
 "timeBodyGyroJerkMagnitudeMean"	"timeBodyGyroJerkMagnitudeStdDev"	
-Variables medidas en unidades de frequencia
+variables measured in units of frequency
 "freqBodyAccMagnitudeMean"      "freqBodyAccMagnitudeStdDev"	
 "freqBodyAccJerkMagnitudeMean"	"freqBodyAccJerkMagnitudeStdDev"
 "freqBodyGyroMagnitudeMean"	    "freqBodyGyroMagnitudeStdDev"	
