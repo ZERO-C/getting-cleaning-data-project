@@ -1,10 +1,10 @@
-CodeBook for the tidy dataset
-Data source
+##CodeBook for the tidy dataset
+##Data source
 
 This dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally 
 made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Feature Selection
+##Feature Selection
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAcc-XYZ 
 and timeGyro-XYZ. These time domain signals were captured at a constant rate of 50 Hz. 
@@ -20,30 +20,36 @@ timeBodyGyroMagnitude, timeBodyGyroJerkMagnitudes).
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing freqBodyAccMagnitude, 
 freqBodyAccJerkMagnitude, freqBodyGyroMagnitude, freqBodyGyroJerkMagnitude.
 
-|Variables
-Identification variables
+##Variables
+
+#Identification variables
 "activityId"	  "subjectId"
-Categorical variables
+
+#Categorical variables
 "activityType"
-variables measured per unit of time
+
+#variables measured per unit of time
+
 "timeBodyAccMagnitudeMean"     	"timeBodyAccMagnitudeStdDev"	
 "timeGravityAccMagnitudeMean"	  "timeGravityAccMagnitudeStdDev"	
 "timeBodyAccJerkMagnitudeMean"	"timeBodyAccJerkMagnitudeStdDev"	
 "timeBodyGyroMagnitudeMean"	    "timeBodyGyroMagnitudeStdDev"	
 "timeBodyGyroJerkMagnitudeMean"	"timeBodyGyroJerkMagnitudeStdDev"	
-variables measured per unit of frequency
+
+#variables measured per unit of frequency
+
 "freqBodyAccMagnitudeMean"      "freqBodyAccMagnitudeStdDev"	
 "freqBodyAccJerkMagnitudeMean"	"freqBodyAccJerkMagnitudeStdDev"
 "freqBodyGyroMagnitudeMean"	    "freqBodyGyroMagnitudeStdDev"	
 "freqBodyGyroJerkMagnitudeMean"	"freqBodyGyroJerkMagnitudeStdDev"	
 
-abbreviations
-    Mean: Mean value
-    StdDev: Standard deviation
+#abbreviations
+ *   Mean: Mean value
+ *  StdDev: Standard deviation
 
 
+##Overview DATASET
 
-Overview DATASET
 Section 1. Merge the training and the test sets to create one data set.
 After setting the source directory for the files, read into tables the data located in
     features.txt
